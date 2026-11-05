@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- A drop of blue curaçao with a curl of laraha peel. No ground: the browser's tab
+       shows through, so the drop is 瑠璃紺 on a light tab bar and a lighter blue on a dark one. -->
+  <style>
+    .drop { fill: #0B346E; }
+    .peel { stroke: #F6C555; }
+    @media (prefers-color-scheme: dark) {
+      .drop { fill: #5B9BD5; }
+    }
+  </style>
+  <path class="drop" d="M32 4 C41 18 51 28 51 40 A19 19 0 0 1 13 40 C13 28 23 18 32 4 Z"/>
+  <path class="peel" d="M39 34 C44 37.5 45 43.5 41.5 48.5" fill="none" stroke-width="5" stroke-linecap="round"/>
+</svg>
